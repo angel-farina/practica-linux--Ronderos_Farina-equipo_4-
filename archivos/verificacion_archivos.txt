@@ -1,0 +1,26 @@
+========== VERIFICACIÓN DE ARCHIVOS - FARINA ==========
+Estructura de directorios creada:
+/mnt/lvm_storage_FARINA
+/mnt/lvm_storage_FARINA/temporal
+/mnt/lvm_storage_FARINA/proyectos
+/mnt/lvm_storage_FARINA/proyectos/archivados
+/mnt/lvm_storage_FARINA/proyectos/activos
+/mnt/lvm_storage_FARINA/respaldos
+/mnt/lvm_storage_FARINA/lost+found
+Archivos en cada directorio:
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:29 /mnt/lvm_storage_FARINA/temporal/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:29 /mnt/lvm_storage_FARINA/temporal/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:29 /mnt/lvm_storage_FARINA/temporal/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:29 /mnt/lvm_storage_FARINA/temporal/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:29 /mnt/lvm_storage_FARINA/temporal/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:29 /mnt/lvm_storage_FARINA/proyectos/archivados/documento_06.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:29 /mnt/lvm_storage_FARINA/proyectos/archivados/documento_08.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:29 /mnt/lvm_storage_FARINA/proyectos/archivados/documento_07.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:30 /mnt/lvm_storage_FARINA/proyectos/activos/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:30 /mnt/lvm_storage_FARINA/proyectos/activos/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:30 /mnt/lvm_storage_FARINA/proyectos/activos/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:30 /mnt/lvm_storage_FARINA/proyectos/activos/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:30 /mnt/lvm_storage_FARINA/proyectos/activos/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:30 /mnt/lvm_storage_FARINA/respaldos/documento_09.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:30 /mnt/lvm_storage_FARINA/respaldos/documento_10.txt
+
