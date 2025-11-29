@@ -257,7 +257,7 @@ docker ps                     # Verificar contenedores
 docker-compose up -d          # Levantar servicios
 ```
 
-![Docker PS](evidencias/capturas/docker_ps)
+![Docker PS](evidencias/capturas/docker_ps.jpg)
 ![Grafana Datasources](evidencias/capturas/grafana_data_sources.jpg)
 ![Prometheus Targets](evidencias/capturas/grafana_dashboard1.jpg)
 ![Grafana Dashboard](evidencias/capturas/grafana_dashboard2.jpg)
