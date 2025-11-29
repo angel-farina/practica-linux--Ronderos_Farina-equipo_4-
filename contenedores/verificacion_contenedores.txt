@@ -1,0 +1,37 @@
+========== VERIFICACIÓN CONTENEDORES - FARINA ==========
+=== IP DE LA VM ===
+10.0.2.15 192.168.1.44 172.17.0.1 172.18.0.1 fd17:625c:f037:2:29:1eff:fe73:1fd5 2802:8010:d53e:6301:a00:27ff:fe0f:c579 
+
+=== CONTENEDORES EN EJECUCIÓN ===
+CONTAINER ID   IMAGE                    COMMAND                  CREATED         STATUS         PORTS                                         NAMES
+68817f1caac3   grafana/grafana:latest   "/run.sh"                2 minutes ago   Up 2 minutes   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp   grafana-practica
+4668bda5b511   prom/prometheus:latest   "/bin/prometheus --c…"   2 minutes ago   Up 2 minutes   0.0.0.0:9090->9090/tcp, [::]:9090->9090/tcp   prometheus-practica
+ce86410f7955   grafana/loki:latest      "/usr/bin/loki -conf…"   2 minutes ago   Up 2 minutes   0.0.0.0:3100->3100/tcp, [::]:3100->3100/tcp   loki-practica
+dcc9fc4feab7   redis:alpine             "docker-entrypoint.s…"   2 minutes ago   Up 2 minutes   0.0.0.0:6379->6379/tcp, [::]:6379->6379/tcp   redis-practica
+725b1a5f4bcd   postgres:alpine          "docker-entrypoint.s…"   2 minutes ago   Up 2 minutes   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp   postgres-practica
+e3f581611fec   nginx:alpine             "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes   0.0.0.0:8081->80/tcp, [::]:8081->80/tcp       nginx-practica
+
+=== ESTADO DE DOCKER-COMPOSE ===
+       Name                      Command               State                    Ports                  
+-------------------------------------------------------------------------------------------------------
+grafana-practica      /run.sh                          Up      0.0.0.0:3000->3000/tcp,:::3000->3000/tcp
+loki-practica         /usr/bin/loki -config.file ...   Up      0.0.0.0:3100->3100/tcp,:::3100->3100/tcp
+nginx-practica        /docker-entrypoint.sh ngin ...   Up      0.0.0.0:8081->80/tcp,:::8081->80/tcp    
+postgres-practica     docker-entrypoint.sh postgres    Up      0.0.0.0:5432->5432/tcp,:::5432->5432/tcp
+prometheus-practica   /bin/prometheus --config.f ...   Up      0.0.0.0:9090->9090/tcp,:::9090->9090/tcp
+redis-practica        docker-entrypoint.sh redis ...   Up      0.0.0.0:6379->6379/tcp,:::6379->6379/tcp
+
+=== REDES DE DOCKER ===
+NETWORK ID     NAME                      DRIVER    SCOPE
+74e4999e20dd   bridge                    bridge    local
+351256e0baad   contenedores_monitoring   bridge    local
+da878dcf6694   host                      host      local
+228a56b2c143   none                      null      local
+
+=== VOLÚMENES DE DOCKER ===
+DRIVER    VOLUME NAME
+local     0a9d63aa9c80a1adf1ed607a5fea1f3cbe1f2996533381004d1be729c1db0921
+local     12c3bed4e8f45cf66ea3c763d53811ba57c57df3ce3588eaef27486122ae7875
+local     31f6daf39207eaf8dde5f9d80e48c9edba90bc09cf4648a2b160b58e5847a74c
+local     contenedores_grafana-data
+
