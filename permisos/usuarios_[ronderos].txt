@@ -1,0 +1,6 @@
+========== INFORMACIÓN DE USUARIOS Y GRUPOS - [RONDEROS] ==========
+Usuario actual: whoami
+Grupos del usuario: groups
+ID del usuario: id
+Usuarios del sistema: cat /etc/passwd
+
