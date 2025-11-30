@@ -24,3 +24,36 @@ Archivos en cada directorio:
 -rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:30 /mnt/lvm_storage_FARINA/respaldos/documento_09.txt
 -rw-rw-r-- 1 vagrant vagrant 27 Nov 28 23:30 /mnt/lvm_storage_FARINA/respaldos/documento_10.txt
 
+========== VERIFICACIÓN DE ARCHIVOS - RONDEROS ==========
+Estructura de directorios creada:
+/mnt/lvm_storage_ronderos
+/mnt/lvm_storage_ronderos/respaldos
+/mnt/lvm_storage_ronderos/lost+found
+/mnt/lvm_storage_ronderos/proyectos
+/mnt/lvm_storage_ronderos/proyectos/archivados
+/mnt/lvm_storage_ronderos/proyectos/activos
+/mnt/lvm_storage_ronderos/temporal
+/mnt/lvm_storage_ronderos
+/mnt/lvm_storage_ronderos/respaldos
+/mnt/lvm_storage_ronderos/lost+found
+/mnt/lvm_storage_ronderos/proyectos
+/mnt/lvm_storage_ronderos/proyectos/archivados
+/mnt/lvm_storage_ronderos/proyectos/activos
+/mnt/lvm_storage_ronderos/temporal
+Archivos en cada directorio:
+-rw-r--r-- 1 root root 27 Nov 30 16:38 /mnt/lvm_storage_ronderos/respaldos/documento_09.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:38 /mnt/lvm_storage_ronderos/respaldos/documento_10.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:32 /mnt/lvm_storage_ronderos/proyectos/archivados/documento_06.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:32 /mnt/lvm_storage_ronderos/proyectos/archivados/documento_08.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:32 /mnt/lvm_storage_ronderos/proyectos/archivados/documento_07.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:36 /mnt/lvm_storage_ronderos/proyectos/activos/documento_02.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:36 /mnt/lvm_storage_ronderos/proyectos/activos/documento_05.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:36 /mnt/lvm_storage_ronderos/proyectos/activos/documento_04.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:36 /mnt/lvm_storage_ronderos/proyectos/activos/documento_01.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:36 /mnt/lvm_storage_ronderos/proyectos/activos/documento_03.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:32 /mnt/lvm_storage_ronderos/temporal/documento_02.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:32 /mnt/lvm_storage_ronderos/temporal/documento_05.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:32 /mnt/lvm_storage_ronderos/temporal/documento_04.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:32 /mnt/lvm_storage_ronderos/temporal/documento_01.txt
+-rw-r--r-- 1 root root 27 Nov 30 16:32 /mnt/lvm_storage_ronderos/temporal/documento_03.txt
+
