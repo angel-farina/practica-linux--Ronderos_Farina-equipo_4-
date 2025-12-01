@@ -34,3 +34,17 @@ drwxrwxrwt 12 root root          4096 Nov 29 14:07 ..
 Información del grupo equipotrabajo:
 equipotrabajo:x:1005:estudiante1,estudiante2,estudiante3,vagrant
 
+========== VERIFICACIÓN DE PERMISOS - [RONDEROS -ALUMNO C] ==========
+Archivos en mi directorio personal:
+total 8
+drwxrwxr-x 2 vagrant vagrant 4096 Dec  1 02:01 .
+drwxr-x--- 6 vagrant vagrant 4096 Dec  1 02:00 ..
+-rw------- 1 vagrant vagrant    0 Dec  1 02:00 privado.txt
+-rw-r--r-- 1 vagrant vagrant    0 Dec  1 02:01 publico.txt
+Archivos en directorio colaborativo:
+total 8
+drwxrwx---  2 root equipotrabajo 4096 Dec  1 02:34 .
+drwxrwxrwt 12 root root          4096 Dec  1 02:34 ..
+Información del grupo equipotrabajo:
+equipotrabajo:x:1005:estudiante1,estudiante2,estudiante3,vagrant
+
