@@ -76,7 +76,7 @@ local     contenedores_grafana-data
 === IP DE LA VM ===
 10.0.2.15 192.168.0.70 172.17.0.1 172.18.0.1 fd17:625c:f037:2:29:1eff:fe73:1fd5 2800:810:59c:8d5:1901:7eae:f00d:fe77 fdaa:bbcc:ddee:0:a00:27ff:fecf:57b6 2800:810:59c:8d5:a00:27ff:fecf:57b6 
 
-=== ESTADO DE DOCKER-COMPOSE ===
+=== REDES DE DOCKER ===
 NETWORK ID     NAME                            DRIVER    SCOPE
 c2f2556efa6f   bridge                          bridge    local
 c324bb2a42a0   ejercicio6_pruebas_monitoring   bridge    local
@@ -92,8 +92,6 @@ aa27477cfc37   nginx:alpine             "/docker-entrypoint.…"   About an hour
 91e16b266efe   redis:alpine             "docker-entrypoint.s…"   About an hour ago   Up About an hour   0.0.0.0:6379->6379/tcp, [::]:6379->6379/tcp   redis-practica
 84efc0d7b970   grafana/loki:latest      "/usr/bin/loki -conf…"   About an hour ago   Up About an hour   0.0.0.0:3100->3100/tcp, [::]:3100->3100/tcp   loki-practica
 
-=== ESTADO DE DOCKER-COMPOSE ===
-NAME      IMAGE     COMMAND   SERVICE   CREATED   STATUS    PORTS
 
 === VOLÚMENES DE DOCKER ===
 DRIVER    VOLUME NAME
@@ -101,4 +99,7 @@ local     2f8438ea1b1ca417f69b66377593fa6d7f1cf4847fd7c3651f28ecaba332285d
 local     04e5e2b735eddd16d7a64043cc0351b8cdae7c9b3db92702d9eb9823375bf8eb
 local     567be30a486520bc395b3d76fb8bb3b689577c181c94c4f5e105b71675fcf9f9
 local     ejercicio6_pruebas_grafana-data
+
+=== ESTADO DE DOCKER-COMPOSE ===
+NAME      IMAGE     COMMAND   SERVICE   CREATED   STATUS    PORTS
 
